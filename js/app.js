@@ -7,6 +7,8 @@ const Cart = function(items=[]) {
   this.items = items;
 };
 
+
+
 Cart.prototype.addItem = function(product, quantity) {
   // TODO: Fill in this instance method to create a new CartItem and add it to this.items
   let cartItemObj = new CartItem(product, quantity);
@@ -24,10 +26,26 @@ Cart.prototype.removeItem = function(item) {
   this.items.splice(item, 1);
 };
 
+
+
+
+
+
+
+
+
+
+
+
 const CartItem = function(product, quantity) {
   this.product = product;
   this.quantity = quantity;
 };
+
+ 
+
+
+
 
 // Product contructor.
 const Product = function(filePath, name) {
