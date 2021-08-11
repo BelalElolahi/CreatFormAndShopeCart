@@ -1,7 +1,7 @@
 'use strict';
 
 
-// Cart constructor.
+
 const Cart = function(items=[]) {
   // this.items is an array of CartItem instances.
   this.items = items;
