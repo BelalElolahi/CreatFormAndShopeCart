@@ -1,7 +1,8 @@
 'use strict';
 
+
 // Cart constructor.
-const Cart = function(items) {
+const Cart = function(items=[]) {
   // this.items is an array of CartItem instances.
   this.items = items;
 };
@@ -61,4 +62,4 @@ function generateCatalog() {
 // Initialize the app by creating the big list of products with images and names
 generateCatalog();
 
-console.log(Product.allProducts)
+console.log(Product.allProducts);
